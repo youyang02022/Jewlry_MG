@@ -1,0 +1,193 @@
+
+*{
+    font-family:  Monaco;
+   background-color: rgb(199, 199, 193);
+}
+
+
+
+
+.logo {
+    width: 80%;
+    height: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    background-color: rgb(199, 199, 193);
+}
+
+.navbar{
+    background-color:white;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+
+ul li{
+    padding: 0;
+    background-color: white;
+}
+
+
+
+#logo_home{
+
+    font-weight: bold;
+    font-size: 40px
+}
+
+
+#navbarSupportedContent{
+    background-color: white;
+}
+
+#search-button{
+    color:white;
+    border-color:white;
+    background-color: gray;
+    font-weight:bold;
+
+}
+
+#search-button:hover{
+    background-color: #131213a6;
+    color:white
+
+}
+
+.d-flex{
+    background-color: white;
+}
+
+#dropdown{
+    position: relative;
+    display:inline-block;
+    background-origin:white;
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    margin: 10px;
+    left: 0;
+    padding:0;
+    border:0;
+    font-weight:bold;
+    background-color: white;
+    color:white
+
+}
+
+.dropdown-toggle{
+    font-size:20px;
+    padding-left:10px
+}
+
+
+.dropdown-toggle:hover{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+main{
+    top:100px;
+    background-color: gray;
+}
+
+section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+article{
+    text-align:justify;
+    flex:1;
+    margin-left:75px;
+    margin-right:20x;
+}
+
+#main-content1 {
+    flex-basis:100%;
+
+}
+
+article p{
+    max-width:500px;
+}
+
+#promo-banner{
+    width:90%;
+    height:auto;
+    margin-top:75px;
+    margin-bottom:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#a10{
+    width:  500px;
+
+}
+
+
+#storefront{
+    width:500px;
+    height:500px;
+}
+
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    border-color: black;
+    align-items: center;
+    margin-top:100px;
+}
+
+#sustainability{
+    width: 500px;
+    height: 500px;
+
+}
+
+
+footer div{
+    flex:1;
+    text-align: center;
+    background-color: white;
+
+
+}
+
+footer{
+    background-color: white;
+    border-top: 1px solid black;
+    padding:10px;
+}
+
+#first-col{
+    flex-basis:50%;
+
+}
+
+#logo-footer{
+    background-color:white;
+    width: 500px;
+    height: 70px;
+    padding:15px;
+
+
+}
+
+#copyright {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
